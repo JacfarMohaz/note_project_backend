@@ -8,7 +8,7 @@ app.use(cors())
 
 app.use(express.json())
 
-mongoose.connect("mongodb://localhost:27017/xusuusQor").then(() => {
+mongoose.connect("mongodb+srv://jacfarmahamed77:50Ax7gnfXT09TbKm@cluster0.ovwwmfq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(() => {
     console.log("Connected successFully")
 }).catch(error => console.log(error))
 
